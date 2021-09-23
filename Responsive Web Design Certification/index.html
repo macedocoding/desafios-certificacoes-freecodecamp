@@ -7,11 +7,25 @@
         #main {
             background-color: #eeeeee;
             text-align: center;
-            font-size: 10px;
+            font-size: 15px;
+        }
+
+        h1 {
+            font-weight: bold;
         }
 
         .smaller-img {
             width: 500px;
+        }
+
+        #tribute-info {
+            text-align: center;
+            text-align: justify;
+        }
+
+        .smaller-padding {
+            padding-left: 300px;
+            padding-right: 300px;
         }
     </style>
 </head>
@@ -22,15 +36,17 @@
         <h2>The man who saved a billion lives</h2>
         <div id="img-div">
             <figure>
-                <img class="smaller-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute-page-main-image.jpg">
-                <figcaption style="text-align: center" id="img-caption">Dr. Norman Borlaug, third from the left, trains biologists in Mexico on how
+                <img class="smaller-img"
+                    src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute-page-main-image.jpg">
+                <figcaption style="text-align: center" id="img-caption">Dr. Norman Borlaug, third from the left, trains
+                    biologists in Mexico on how
                     to increase
                     wheat yields - part of his life-long war on hunger.
                 </figcaption>
             </figure>
         </div>
         <h2><strong>Here's a time line of Dr. Borlaug's life:</strong></h2>
-        <div id="tribute-info">
+        <div class="smaller-padding" id="tribute-info">
             <ul>
                 <li>1914 - Born in Cresco, Iowa</li>
                 <li>1933 - Leaves his family's farm to attend the University of Minnesota, thanks to a Depression era
@@ -69,10 +85,11 @@
                 <li>2009 - dies at the age of 95.</li>
             </ul>
         </div>
-        <p>"Borlaug's life and achievement are testimony to the far-reaching contribution that one man's towering
+        <p class="smaller-padding"><em>"Borlaug's life and achievement are testimony to the far-reaching contribution that one man's towering
             intellect, persistence and scientific vision can make to human peace and progress."
-            -- Indian Prime Minister Manmohan Singh</p>
-        <footer>If you have time, you should read more about this incredible human being on his <a href="https://en.wikipedia.org/wiki/Norman_Borlaug" target="_blank">Wikipedia entry</a>.
+            -- Indian Prime Minister Manmohan Singh</em></p>
+        <footer>If you have time, you should read more about this incredible human being on his <a
+                href="https://en.wikipedia.org/wiki/Norman_Borlaug" target="_blank">Wikipedia entry</a>.
         </footer>
 </body>
 </div>
