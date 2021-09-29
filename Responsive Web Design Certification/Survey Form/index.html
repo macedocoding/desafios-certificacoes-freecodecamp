@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário de pesquisa</title>
+</head>
+<body>
+    <h1 id="title">Formulário de atendimento</h1>
+    <p id="description">Por favor, preencha para agilizarmos seu atendimento</p>
+    <form id="survey-form">
+        <div>
+            <label id="name-label" for="name">Nome</label>
+            <input type="text" name="name" id="name" placeholder="Digite seu nome">
+        </div>
+        <div>
+            <label id="email-label" for="email">e-mail</label>
+            <input type="text" name="email" id="email" placeholder="Digite seu e-mail">
+        </div>
+        <div>
+            <label id="number-label" for="number">Telefone</label>
+            <input type="text" name="number" id="number" placeholder="Digite seu telefone">
+        </div>
+        <div>
+            <label for="">Sim
+            <input type="radio" name="recomendaria" value="sim">
+            </label>
+            <label for="">Talvez
+            <input type="radio" name="recomendaria" value="talvez">
+            </label>
+            <label for="">Não
+            <input type="radio" name="recomendaria" value="nao">
+            </label>
+        </div>
+        <div>
+            <textarea placeholder="Digite algo" name="" id="" cols="30" rows="5"></textarea>
+        </div>
+        <div>
+            <label for="turno">Manhã
+                <input type="checkbox">
+            </label>
+            <label for="turno">Tarde
+                <input type="checkbox">
+            </label>
+            <label for="turno">Noite
+                <input type="checkbox">
+            </label>
+        </div>
+        <div>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+</body>
+</html>
